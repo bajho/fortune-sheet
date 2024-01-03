@@ -425,6 +425,7 @@ const SheetOverlay: React.FC = () => {
         <SearchReplace getContainer={() => containerRef.current!} />
       )}
       <div className="fortune-row-body">
+		<RowHeader />
         <RowHeader />
         <ScrollBar axis="x" />
         <ScrollBar axis="y" />
